@@ -112,6 +112,16 @@ nav{
 
     color: inherit;
 }
+h2{
+  font-size: 48px;
+}
+h3{
+  font-size: 1.875rem;
+  line-height: 1.2;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
 .u-text-1{
   text-transform: uppercase;
   letter-spacing:5px
@@ -153,6 +163,99 @@ h1 {
   left: -60px;
 
 }
+.st-3{
+  padding-top: 100px;
+  display: flex;
+  width: 1140px;
+  margin: auto;
+}
+.st-3 div{
+  width: 50%;
+}
+
+.st-3 button,.st-3 a{
+  background-color: #ab4ec7;
+  color: #ffffff;
+  width: 220px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 20px  ;
+  text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+.st-4{
+  width: 1140px;
+  margin: auto ; 
+  padding-top: 400px; 
+  height: 1000px;
+  z-index: 90909;
+  
+}
+.st-5{
+  width: 1140px;
+  height: 551px;
+  margin: auto;
+  align-items: center;
+  margin-top: 400px;
+}
+.st-5 h1{
+  font-weight: 700;
+  font-size: 3.75rem;
+  margin: 54px auto 0;
+  text-align: center;
+}
+.st-5 h5{
+  font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+.st-5-test{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.u-container-layout-1{
+  padding: 10px 30px;
+  
+
+}
+.u-container-layout {
+  /* position: relative; */
+  /* flex: 1; */
+  max-width: 100%;
+  transition-duration: inherit;
+}
+
+.u-container-layout-1 h3{
+  width: 30%;
+}
+.st-5-trait{
+  border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    width: 100px;
+    height: 0;
+    margin: 30px auto 0;
+    border-color: #454545;
+    stroke: #454545;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+.d-st-4{
+  width: 872px;
+  height: 776.766px;
+margin: auto;
+  background: #ffffff;
+  z-index: 90909;
+}
 .st-d-p{
   width: 330px;
   text-align: center;
@@ -160,7 +263,9 @@ h1 {
 }
 .st-d-p p {
   margin: 20px 0 0;
+  
 }
+
 
 .d-st-1 {
   background-color: #AC4EC8;
@@ -215,4 +320,116 @@ margin-left: 20px;
     position: relative;
     top: 1050px;
     left: 900px;
+}
+
+.svg-st-4{
+  margin-top: 150px;
+  
+  z-index: -1;
+}
+
+.u-svg-link-2{
+  fill: #F1900E;
+ height: 1000px;
+ width: 1140px ;
+ position: relative;
+ z-index: -1;
+left: -20px;
+margin: auto;
+top: -1020px;
+}
+.row{
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-height: max-content;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.block-st-4-1 {
+  width:33.33333333%;
+  height: 388.77px;
+  background-image: url('../img/fff.jpg');
+  background-size: cover;
+  justify-content: center;
+  background-position: 50% 50%;
+  padding: 30px;
+
+}.block-st-4-2 {
+  width: 33.33333333%;
+  height: 388.77px;
+  background-image: url('../img/fdfff.jpg');
+  background-size: cover;
+  justify-content: center;
+  background-position: 50% 50%;
+  padding: 30px;
+}
+
+.block-st-4-3 {
+  width: 33.33333333%;
+  height: 388.77px;
+  background-image: url('../img/gffggggg.jpg');
+  background-size: cover;
+  justify-content: center;
+  background-position: 50% 50%;
+  padding: 30px;
+}
+
+.block-st-4{
+  width: 33.33333333%;
+  height: 358.77px;
+  padding: 30px;
+  text-align: left;
+  
+    
+}
+.block-st-4 p {
+  margin: 20px 0 20px ;
+}
+.block-st-4 a{
+  background-image: none;
+    border-style: solid;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 32px  0 0;
+    padding: 0;
+    border-right-width: 0;
+    border-right-style: none;
+    border-top-width: 0;
+    border-top-style: none;
+    border-left-width: 0;
+    border-left-style: none;
+    color: #111;
+    text-decoration: none;
+}
+
+
+.text-st-5 {
+  min-height: 223px;
+  display: grid;
+  grid-template-columns: repeat(3, 33.3333%);
+  
+}
+
+.text-st-5 p{
+  color: #999999;
+  word-wrap: break-word;
+  text-align: left;
+  
+
+}
+
+.text-st-5 h3{
+  font-size: 65px;
+  color: #ab4ec7;
+  width: 32.42px;
+}
+.text-st-5 h4{
+  font-size: 24px;
+  color:  #ab4ec7;
+  
 }
