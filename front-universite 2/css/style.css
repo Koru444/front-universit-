@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -200,6 +201,7 @@ h1 {
   margin: auto;
   align-items: center;
   margin-top: 400px;
+  margin-bottom: 90px;
 }
 .st-5 h1{
   font-weight: 700;
@@ -218,7 +220,17 @@ h1 {
 .st-5-test{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  position: relative;
+  right: -50px;
+  top: -87px;
+  padding-left: 20px;
+}
+
+.st-6{
+  width: 1140px;
+  margin: auto;
+  background: #000;
+  height: 800px;
 }
 .u-container-layout-1{
   padding: 10px 30px;
@@ -234,6 +246,7 @@ h1 {
 
 .u-container-layout-1 h3{
   width: 30%;
+ 
 }
 .st-5-trait{
   border-right-width: 0;
@@ -427,6 +440,9 @@ top: -1020px;
   font-size: 65px;
   color: #ab4ec7;
   width: 32.42px;
+  font-size: 4.0625rem;
+  font-family: 'OSwald',sans-serif !important ;
+  font-weight: 700;
 }
 .text-st-5 h4{
   font-size: 24px;
